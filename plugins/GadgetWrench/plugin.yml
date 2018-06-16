@@ -1,0 +1,11 @@
+main: com.gadgetwrench.plugin.GadgetWrench
+name: GadgetWrench
+version: 1.0
+author: CommandDan
+description: Plugin that allows players to code gadgets ingame and in file.
+commands:
+  test:
+    description: Command to test plugin status
+    usage: /test
+    permission: gadgetwrench.test
+    permission-message: You don't have the gadgetwrench.test permission.
